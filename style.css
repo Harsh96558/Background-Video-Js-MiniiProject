@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+.main{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+
+}
+
+.video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%);
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+    opacity: .8;
+}
+button{
+    padding: 0px 4px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn{
+    
+    font-size: 30px;
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .3s linear;
+
+}
